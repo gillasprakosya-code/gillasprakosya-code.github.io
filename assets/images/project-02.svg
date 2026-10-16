@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Project placeholder 02</title>
+  <desc id="desc">Ilustrasi UI kit aplikasi akademik.</desc>
+  <rect width="900" height="620" rx="36" fill="#E8DDCC"/>
+  <rect x="90" y="90" width="300" height="440" rx="32" fill="#FFFDF8"/>
+  <rect x="426" y="90" width="384" height="190" rx="32" fill="#F8F4EC"/>
+  <rect x="426" y="316" width="170" height="214" rx="32" fill="#C66B4E" opacity=".88"/>
+  <rect x="632" y="316" width="178" height="214" rx="32" fill="#FFFDF8"/>
+  <circle cx="186" cy="176" r="48" fill="#C66B4E"/>
+  <path d="M154 278h170M154 326h116M154 374h190" stroke="#6B4F3A" stroke-width="16" stroke-linecap="round"/>
+  <path d="M478 162h210M478 214h144" stroke="#292620" stroke-width="16" stroke-linecap="round"/>
+</svg>

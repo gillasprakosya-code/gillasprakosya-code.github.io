@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Project placeholder 04</title>
+  <desc id="desc">Ilustrasi riset dan presentasi akademik.</desc>
+  <rect width="900" height="620" rx="36" fill="#FFFDF8"/>
+  <circle cx="704" cy="142" r="108" fill="#C66B4E" opacity=".2"/>
+  <circle cx="198" cy="474" r="130" fill="#E8DDCC"/>
+  <rect x="126" y="118" width="648" height="384" rx="30" fill="#F8F4EC" stroke="#D4C1AA" stroke-width="4"/>
+  <path d="M190 205h202M190 255h278M190 305h148" stroke="#292620" stroke-width="18" stroke-linecap="round"/>
+  <rect x="516" y="196" width="146" height="212" rx="18" fill="#C66B4E"/>
+  <path d="M548 352h84M548 310h84M548 268h84" stroke="#FFFDF8" stroke-width="14" stroke-linecap="round"/>
+</svg>
