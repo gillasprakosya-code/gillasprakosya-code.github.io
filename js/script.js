@@ -122,9 +122,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (contactForm && formStatus) {
         contactForm.addEventListener("submit", (event) => {
-            event.preventDefault();
-
             if (!contactForm.checkValidity()) {
+                event.preventDefault();
                 contactForm.classList.add("was-validated");
                 formStatus.className = "alert alert-warning mt-3";
                 formStatus.textContent = "Mohon lengkapi semua field dan gunakan format email yang benar.";
@@ -132,8 +131,9 @@ document.addEventListener("DOMContentLoaded", () => {
             }
 
             contactForm.classList.add("was-validated");
-            formStatus.className = "alert alert-success mt-3";
-            formStatus.textContent = "Form sudah diisi dengan benar. Pesan belum dikirim karena layanan email belum diaktifkan.";
+            const submitButton = contactForm.querySelector('button[type="submit"]');
+            submitButton.disabled = true;
+            submitButton.innerHTML = '<span class="spinner-border spinner-border-sm me-2" aria-hidden="true"></span>Mengirim...';
         });
     }
 });
